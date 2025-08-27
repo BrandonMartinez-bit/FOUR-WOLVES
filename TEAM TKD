@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEAM FOUR WOLVES - Taekwondo</title>
+  
+  <!-- Fuente llamativa para el título -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+  <style>
+    /* Fondo con degradado de colores combinados */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #e63946, #2a9d8f, #8e44ad, #457b9d);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: #fff;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 3.5rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: rgba(0,0,0,0.5);
+      padding: 15px 0;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 25px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd700;
+      transform: scale(1.1);
+    }
+
+    main {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+
+    section h2 {
+      font-family: 'Anton', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 0;
+      background-color: rgba(0,0,0,0.6);
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TEAM FOUR WOLVES</h1>
+  </header>
+
+  <nav>
+    <a href="#conocenos">Conócenos</a>
+    <a href="#plan">Plan de trabajo</a>
+    <a href="#equipo">Nuestro equipo</a>
+    <a href="#contacto">Contáctanos</a>
+  </nav>
+
+  <main>
+    <section id="conocenos">
+      <h2>Conócenos</h2>
+      <p>Somos un equipo apasionado de Taekwondo dedicado a fomentar la disciplina, fuerza y técnica en nuestros miembros. Nuestro objetivo es crear atletas completos y personas de carácter fuerte y positivo.</p>
+    </section>
+
+    <section id="plan">
+      <h2>Plan de trabajo</h2>
+      <p>Nuestro plan de trabajo combina entrenamientos físicos, técnicos y estratégicos, enfocados en la excelencia y preparación para competencias. Cada semana seguimos rutinas personalizadas y evaluamos avances individuales y de equipo.</p>
+    </section>
+
+    <section id="equipo">
+      <h2>Nuestro equipo</h2>
+      <p>Contamos con instructores certificados y atletas experimentados. Cada miembro aporta su conocimiento y pasión para que cada entrenamiento sea desafiante y motivador. La cooperación y la disciplina son nuestro núcleo.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>Puedes enviarnos un correo a <strong>contacto@teamfourwolves.com</strong> o llamarnos al <strong>+52 55 1234 5678</strong>. También estamos en nuestras redes sociales: Facebook, Instagram y TikTok.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 TEAM FOUR WOLVES. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
