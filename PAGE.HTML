@@ -3,8 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>TEAM FOUR WOLVES</title>
+  <!-- Fuente llamativa desde Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <style>
+    /* Fondo con gradiente de colores intensos */
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -12,50 +14,75 @@
       color: white;
     }
 
+    /* Encabezado principal */
     header {
       text-align: center;
-      padding: 40px 20px;
+      padding: 50px 20px;
       font-family: 'Anton', sans-serif;
-      font-size: 3em;
-      letter-spacing: 2px;
-      text-shadow: 2px 2px 5px black;
+      font-size: 3.5em;
+      letter-spacing: 3px;
+      text-shadow: 3px 3px 8px black;
     }
 
+    /* Menú de navegación */
     nav {
       display: flex;
       justify-content: center;
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: rgba(0, 0, 0, 0.7);
       padding: 15px 0;
     }
 
     nav a {
       color: white;
       text-decoration: none;
-      margin: 0 25px;
+      margin: 0 30px;
       font-weight: bold;
       font-size: 1.2em;
-      transition: color 0.3s;
+      transition: color 0.3s ease;
     }
 
     nav a:hover {
       color: yellow;
     }
 
+    /* Secciones de contenido */
     section {
-      padding: 40px;
+      padding: 60px 20px;
       text-align: center;
     }
 
     h2 {
       font-family: 'Anton', sans-serif;
-      font-size: 2em;
+      font-size: 2.5em;
       margin-bottom: 20px;
+      text-shadow: 2px 2px 5px black;
     }
 
     p {
       font-size: 1.1em;
-      max-width: 700px;
+      max-width: 800px;
       margin: auto;
+      line-height: 1.6;
+    }
+
+    /* Responsive para pantallas pequeñas */
+    @media (max-width: 600px) {
+      header {
+        font-size: 2.2em;
+      }
+
+      nav a {
+        margin: 0 15px;
+        font-size: 1em;
+      }
+
+      h2 {
+        font-size: 1.8em;
+      }
+
+      p {
+        font-size: 1em;
+      }
     }
   </style>
 </head>
@@ -72,22 +99,22 @@
 
   <section id="conocenos">
     <h2>Conócenos</h2>
-    <p>Somos un equipo apasionado por el taekwondo, comprometido con la disciplina, el respeto y el desarrollo físico y mental de nuestros atletas.</p>
+    <p>Somos un equipo apasionado por el taekwondo, comprometido con la disciplina, el respeto y el desarrollo físico y mental de nuestros atletas. Nuestra misión es formar guerreros fuertes, decididos y con valores sólidos.</p>
   </section>
 
   <section id="plan">
     <h2>Plan de trabajo</h2>
-    <p>Ofrecemos entrenamientos estructurados que combinan técnica, acondicionamiento físico y valores deportivos. Nuestro enfoque se adapta a todos los niveles.</p>
+    <p>Ofrecemos entrenamientos estructurados que combinan técnica, acondicionamiento físico, desarrollo coordinativo y trabajo en equipo. Cada sesión está diseñada para potenciar las capacidades individuales y colectivas de nuestros miembros.</p>
   </section>
 
   <section id="equipo">
     <h2>Nuestro equipo</h2>
-    <p>Contamos con entrenadores certificados y atletas destacados que inspiran y guían a cada miembro del TEAM FOUR WOLVES.</p>
+    <p>Contamos con entrenadores certificados, atletas de alto rendimiento y un ambiente que fomenta el crecimiento personal. Cada integrante del TEAM FOUR WOLVES aporta su energía, experiencia y pasión por el taekwondo.</p>
   </section>
 
   <section id="contacto">
     <h2>Contáctanos</h2>
-    <p>¿Quieres unirte o saber más? Escríbenos a <strong>contacto@fourwolves.mx</strong> o síguenos en redes sociales.</p>
+    <p>¿Quieres unirte al equipo o saber más sobre nuestras clases? Escríbenos a <strong>contacto@fourwolves.mx</strong> o síguenos en nuestras redes sociales. ¡Estamos listos para recibirte!</p>
   </section>
 
 </body>
